@@ -14,7 +14,7 @@ app.get("/hello", (req, res) => {
   res.send("Hello World!");
 });
 
-app.get("/board", (req, res) => {
+app.get("/api/board", (req, res) => {
   res.send({ title: "노드 api 서버 update!!!!" });
 });
 
